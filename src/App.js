@@ -62,8 +62,8 @@ function App() {
   }
 
   //process the letter input
-  const verifyLetter = () => {
-    setGameStage(stages[2].name)
+  const verifyLetter = (letter) => {
+    alert(letter)
   }
 
   //restarts the game
